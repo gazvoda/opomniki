@@ -21,9 +21,9 @@ window.addEventListener('load', function() {
 		var uporabnik = document.querySelector("#uporabnisko_ime").value;
 		
 		//nastavi HTML element z #uporabnik
-		document.querySelector("#uporabnik").value = uporabnik;
+		document.querySelector("#uporabnik").innerHTML = uporabnik;
 		//skrij pokrivalo
-		document.querySelector("#pokrivalo").style.display = "none";
+		document.querySelector(".pokrivalo").style.display = "none";
 	}
 	document.querySelector("#prijavniGumb").addEventListener('click', prijavi);
 	
